@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="WYRAME.png" type="image/x-icon">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <meta name="description"
+        content="WYRAME est une plateforme de services en ligne qui permet aux clients de transférer de l'argent facilement et rapidement.">
+    <link rel="stylesheet" href="style.fixed.css">
+    <script src="script.js" defer></script>
+    <title>WYRAME — Transferts rapides et sécurisés</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar" role="navigation" aria-label="Navigation principale">
+            <div class="nav-content">
+                <a class="brand" href="index.html" aria-label="WYRAME Accueil"><img src="dr.png" alt="WYRAME"
+                        class="logo"></a>
+                <button class="hamburger" aria-label="Ouvrir le menu" aria-expanded="false">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+                <ul class="nav-links">
+                    <li><a href="#hero">Accueil</a></li>
+                    <li><a href="#about">À propos</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="auth.html" class="btn-auth login">Connexion</a></li>
+                    <li><a href="auth.html" class="btn-auth register">Enregistrement</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero" class="hero">
+            <div class="hero-inner">
+                <h1>L'argent voyage plus vite avec <strong>WYRAME</strong></h1>
+                <p class="lead">Transferts sécurisés, assistance 24/7 et gestion simple de vos opérations.</p>
+                <div class="hero-cta">
+                    <a href="#services" class="btn primary">Découvrir nos services</a>
+                    <a href="#contact" class="btn">Nous contacter</a>
+                </div>
+            </div>
+            <div class="hero-media">
+                <img src="dr.png" alt="Illustration WYRAME" class="hero-image">
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <h2>À propos de nous</h2>
+            <p class="tata">Nous sommes disponibles partout pour vous aider, avec des services rapides, fiables et
+                sécurisés.</p>
+        </section>
+
+        <section id="services" class="services">
+            <h2>Nos services</h2>
+            <div class="cards">
+                <article class="card">
+                    <div class="card-icon"><i class="fas fa-exchange-alt"></i></div>
+                    <h3>Transferts</h3>
+                    <p class="clara">Transferts rapides et simples entre comptes et vers l'international.</p>
+                    <a href="auth.html" class="card-btn primary">Commencer</a>
+                </article>
+                <article class="card">
+                    <div class="card-icon"><i class="fas fa-headset"></i></div>
+                    <h3>Assistance</h3>
+                    <p class="clara">Support 24/7 pour toutes vos opérations et questions.</p>
+                    <a href="auth.html" class="card-btn">Nous contacter</a>
+                </article>
+                <article class="card">
+                    <div class="card-icon"><i class="fas fa-shield-alt"></i></div>
+                    <h3>Sécurité</h3>
+                    <p class="clara">Protection et confidentialité au cœur de nos services.</p>
+                    <a href="auth.html" class="card-btn primary">S'inscrire</a>
+                </article>
+                <article class="card">
+                    <div class="card-icon"><i class="fas fa-chart-line"></i></div>
+                    <h3>Gestion</h3>
+                    <p class="clara">Outils pour suivre et gérer vos opérations facilement.</p>
+                    <a href="auth.html" class="card-btn">Connexion</a>
+                </article>
+            </div>
+        </section>
+
+        <section id="testimonials" class="testimonials">
+            <h2>Témoignages</h2>
+            <div class="testimonials-carousel">
+                <div class="testimonial-item">
+                    <p class="testimonial-text">"WYRAME a révolutionné la façon dont j'envoie de l'argent. C'est rapide,
+                        simple et fiable."</p>
+                    <p class="testimonial-author">— Marie Durand</p>
+                </div>
+                <div class="testimonial-item">
+                    <p class="testimonial-text">"Le meilleur service de transfert que j'ai jamais utilisé. L'assistance
+                        est toujours là pour m'aider."</p>
+                    <p class="testimonial-author">— Pierre Lefevre</p>
+                </div>
+                <div class="testimonial-item">
+                    <p class="testimonial-text">"Je fais confiance à WYRAME pour mes transactions importantes. La
+                        sécurité est garantie."</p>
+                    <p class="testimonial-author">— Sophie Martin</p>
+                </div>
+                <div class="testimonial-item">
+                    <p class="testimonial-text">"Interface intuitive et résultats rapides. WYRAME est ma plateforme de
+                        prédilection."</p>
+                    <p class="testimonial-author">— Jean Beaumont</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2>Nous contacter</h2>
+            <p>Avez-vous des questions ? Nous sommes là pour vous aider.</p>
+            <div class="contact-content">
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <h3>Email</h3>
+                    <p><a href="mailto:support@wyrame.com">support@wyrame.com</a></p>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-phone"></i>
+                    <h3>Téléphone</h3>
+                    <p><a href="tel:+2250586524962">+225 05 86 52 49 62</a></p>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-clock"></i>
+                    <h3>Horaires</h3>
+                    <p>24h/24, 7j/7</p>
+                </div>
+            </div>
+            <p class="social-text">Suivez-nous sur les réseaux sociaux :</p>
+        </section>
+    </main>
+
+    <footer class="foot">
+        <div class="foot-inner">
+            <div class="socials" aria-label="Réseaux sociaux">
+                <a href="#" class="social-link facebook" aria-label="Facebook" title="Facebook" target="_blank"
+                    rel="noopener">
+                    <i class="fab fa-facebook-f" aria-hidden="true"></i>
+                </a>
+                <a href="#" class="social-link youtube" aria-label="YouTube" title="YouTube" target="_blank"
+                    rel="noopener">
+                    <i class="fab fa-youtube" aria-hidden="true"></i>
+                </a>
+                <a href="#" class="social-link google" aria-label="Google" title="Google" target="_blank"
+                    rel="noopener">
+                    <i class="fab fa-google" aria-hidden="true"></i>
+                </a>
+                <a href="#" class="social-link tiktok" aria-label="TikTok" title="TikTok" target="_blank"
+                    rel="noopener">
+                    <i class="fab fa-tiktok" aria-hidden="true"></i>
+                </a>
+            </div>
+            <p>&copy; <span id="year"></span> WYRAME — Tous droits réservés</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
